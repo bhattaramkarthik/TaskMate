@@ -1,0 +1,29 @@
+
+.headerTitle{
+    padding-left: 25px;
+    padding-top : 20px;
+    width: 100px;
+    display: inline-block;
+}
+
+.changeTheme{
+    padding-left: 300px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.color{
+    display: inline-block;
+    width:55px;
+}
+
+.pointer{
+    cursor: pointer;
+    padding:10px;
+}
+
+.pointer:hover{
+    background-color: rgba(96, 92, 92, 0.178);
+}
+
+

@@ -1,0 +1,21 @@
+.taskName{
+    margin-left: 25px;
+    margin-top : 20px;
+    width:400px;
+    height:30px;
+    padding-left:20px;
+}
+
+.taskAddButton{
+    margin-left: 60px;
+    margin-top : 20px;
+    width:100px;
+    height:35px;
+    background-color:#09ed09ed;
+    color:white;
+    border:none;
+}
+
+.taskAddButton:hover{
+    cursor: pointer;
+}
