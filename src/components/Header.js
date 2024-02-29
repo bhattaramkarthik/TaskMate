@@ -3,11 +3,12 @@ import './header.css';
 
 function Header(){
 
-   const [theme,setTheme] = useState("backgroundWhite");
+   const [theme,setTheme] = useState(localStorage.getItem('theme') || "backgroundWhite");
 
    useEffect(() => {
       document.documentElement.removeAttribute("class");
       document.documentElement.classList.add(theme);
+      localStorage.setItem('theme',theme);
    },[theme]);
 
    return(
